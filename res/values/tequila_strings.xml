@@ -202,4 +202,8 @@
     <string name="timeout_summary_10mins">10 minutes</string>
     <string name="timeout_summary_30mins">30 minutes</string>
     <string name="timeout_summary_1hour">1 hour</string>
+
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>
