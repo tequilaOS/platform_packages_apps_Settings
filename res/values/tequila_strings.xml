@@ -59,4 +59,8 @@
     <!-- Ignore secure window -->
     <string name="ignore_window_secure_title">Ignore window secure flags</string>
     <string name="ignore_window_secure_summary">This removes screenshot and screenrecord limits for all applications but may lead to privacy leaks. After toggling, you may need to restart your apps.</string>
+
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 </resources>
