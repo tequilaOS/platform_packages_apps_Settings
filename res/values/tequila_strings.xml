@@ -23,4 +23,8 @@
     <string name="color_mode_balance_green">Green strength</string>
     <string name="color_mode_balance_blue">Blue strength</string>
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rooted debugging</string>
+    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
 </resources>
