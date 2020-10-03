@@ -137,4 +137,10 @@
     <string name="charging_control_target_time_summary">Battery will be fully charged by %s</string>
     <string name="charging_control_limit_title">Limit</string>
     <string name="reset">Reset</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_no_apps">No apps</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Please restart the application to apply the changes.</string>
 </resources>
