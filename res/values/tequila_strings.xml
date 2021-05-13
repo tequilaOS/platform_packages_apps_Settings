@@ -244,4 +244,8 @@
 
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_blur_title">Media art blur level</string>
+
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
 </resources>
