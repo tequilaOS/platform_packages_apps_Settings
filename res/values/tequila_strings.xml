@@ -16,4 +16,7 @@
     <!-- Volume link notification -->
     <string name="ring_only_volume_option_title">Ring volume</string>
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Peak refresh rate</string>
 </resources>
