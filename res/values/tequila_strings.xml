@@ -4,4 +4,7 @@
     <string name="tequila_version">tequilaOS version</string>
     <string name="tequila_settings_title">tequilaOS settings</string>
     <string name="tequila_settings_summary">Customize your device here</string>
+
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Maximum refresh rate</string>
 </resources>
