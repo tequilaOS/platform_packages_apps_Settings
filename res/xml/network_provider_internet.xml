@@ -63,6 +63,13 @@
         settings:controller="com.android.settings.network.AirplaneModePreferenceController"
         settings:userRestriction="no_airplane_mode"/>
 
+    <com.tequila.support.preferences.SystemSettingSwitchPreference
+        android:key="show_fourg_icon"
+        android:title="@string/show_fourg_icon_title"
+        android:icon="@drawable/ic_settings_data_icon"
+        android:summary="@string/show_fourg_icon_summary"
+        android:defaultValue="false" />
+
     <com.android.settingslib.RestrictedPreference
         android:key="manage_mobile_plan"
         android:title="@string/manage_mobile_plan_title"
