@@ -4542,6 +4542,24 @@
             </intent-filter>
         </activity>
 
+        <!-- tequilaSettings -->
+        <activity android:name=".Settings$tequilaSettingsActivity"
+            android:label="@string/tequila_settings_title"
+            android:icon="@drawable/ic_tequila_settings"
+            android:parentActivityName="com.android.settings"
+            android:exported="true">
+            <intent-filter android:priority="69">
+                <action android:name="com.android.settings.TEQUILA_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.tequila.settings.tequilaSettings" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>

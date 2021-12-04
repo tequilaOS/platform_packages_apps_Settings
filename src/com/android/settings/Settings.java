@@ -448,4 +448,9 @@ public class Settings extends SettingsActivity {
      * Activity for OneHandedSettings
      */
     public static class OneHandedSettingsActivity extends SettingsActivity { /* empty */ }
+
+    /**
+     * tequila settings
+     */
+    public static class tequilaSettingsActivity extends SettingsActivity { /* empty */ }
 }
