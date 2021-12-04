@@ -2,4 +2,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- tequila -->
     <string name="tequila_version">tequilaOS version</string>
+    <string name="tequila_settings_title">tequilaOS settings</string>
+    <string name="tequila_settings_summary">Customize your device here</string>
 </resources>
