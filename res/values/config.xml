@@ -242,7 +242,7 @@
 
     <!-- Settings intelligence interaction log intent action -->
     <string name="config_settingsintelligence_log_action" translatable="false">
-            com.google.android.settings.intelligence.LOG_BRIDGE
+        com.google.android.settings.intelligence.LOG_BRIDGE
     </string>
 
     <!-- AOSP Emergency app package name -->
