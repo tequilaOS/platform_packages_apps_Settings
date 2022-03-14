@@ -180,6 +180,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.tequila.settings.tequilaSettings;
+import ink.kscope.settings.wifi.tether.WifiTetherClientManager;
 
 public class SettingsGateway {
 
@@ -348,7 +349,8 @@ public class SettingsGateway {
             AppLocaleDetails.class.getName(),
             TurnScreenOnSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
-            tequilaSettings.class.getName()
+            tequilaSettings.class.getName(),
+            WifiTetherClientManager.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
