@@ -75,6 +75,7 @@ android_library {
         "lottie",
         "windowExtLib",
         "powerusagefeaturegoogle",
+        "VendorSupportLib",
     ],
 
     libs: [
