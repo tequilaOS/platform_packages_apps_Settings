@@ -86,4 +86,8 @@
 
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Daily data usage in QS footer</string>
+    <string name="qs_footer_datausage_summary">Display daily data usage summary in quick settings footer</string>
 </resources>
