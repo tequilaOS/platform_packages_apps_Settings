@@ -2,10 +2,22 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- tequila version -->
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Zapisane słuchawki</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Poniżej 1 minuty</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s dzisiaj</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Dotknij, aby wyświetlić informacje</string>
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Sklep Play</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Balans kolorów</string>
+    <string name="color_mode_balance_red">Poziom czerwonego</string>
+    <string name="color_mode_balance_green">Poziom zielonego</string>
+    <string name="color_mode_balance_blue">Poziom niebieskiego</string>
+    <string name="keywords_color_balance">kolor, balans kolorów, korekta koloru, czerwony, zielony, niebieski, LiveDisplay</string>
     <!-- Android debugging as root -->
+    <string name="adb_enable_root">Debugowanie jako root</string>
+    <string name="adb_enable_summary_root">Zezwól na debugowanie Androida jako root</string>
 </resources>
