@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- tequila version -->
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <!-- App details: open play store link if app is user installed -->
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <!-- Android debugging as root -->
+</resources>
