@@ -27,19 +27,4 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rooted debugging</string>
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
-
-    <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
-
-    <!-- Show LTE/4G switch -->
-    <string name="show_fourg_icon_title">Show 4G instead of LTE</string>
-    <string name="show_fourg_icon_summary">Replace LTE indicator with 4G</string>
-
-    <!-- Statusbar category name in Display Settings -->
-    <string name="category_name_statusbar_customizations">Statusbar Customizations</string>
-
-    <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
 </resources>
