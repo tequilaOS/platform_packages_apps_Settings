@@ -20,4 +20,8 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Debugowanie jako root</string>
     <string name="adb_enable_summary_root">Zezwól na debugowanie Androida jako root</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Show LTE/4G switch -->
+    <!-- Statusbar category name in Display Settings -->
+    <!-- Data disabled icon -->
 </resources>
