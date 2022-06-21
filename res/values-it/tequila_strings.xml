@@ -8,4 +8,8 @@
     <!-- App details: open play store link if app is user installed -->
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
     <!-- Android debugging as root -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Show LTE/4G switch -->
+    <!-- Statusbar category name in Display Settings -->
+    <!-- Data disabled icon -->
 </resources>
