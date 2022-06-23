@@ -20,10 +20,10 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Rootlu hata ayıklama</string>
     <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
-    <!-- Three-fingers-swipe to screenshot -->
-    <!-- Show LTE/4G switch -->
-    <!-- Statusbar category name in Display Settings -->
-    <!-- Data disabled icon -->
     <!-- Face Unlock -->
     <!-- Wifi/Bluetooth auto timeout -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Statusbar category name in Display Settings -->
+    <!-- Show LTE/4G switch -->
+    <!-- Data disabled icon -->
 </resources>
