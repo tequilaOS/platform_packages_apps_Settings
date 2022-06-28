@@ -21,9 +21,41 @@
     <string name="adb_enable_root">Rootlu hata ayıklama</string>
     <string name="adb_enable_summary_root">Android hata ayıklamanın rootlu olarak çalışmasına izin verin</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldır ve yeni bir tarama oluştur</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
+    <string name="face_redo_confirm_btn">Yinele</string>
+    <string name="face_redo_warning_msg">Mevcut yüz taramasını kaldırıp yeni bir tane oluşturmak istiyor musunuz?</string>
+    <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
+    <string name="face_unlock_method_default">Ekran açıldığında</string>
+    <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
     <!-- Wifi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">WiFi zaman aşımı</string>
+    <string name="wifi_timeout_summary">WiFi\'yi otomatik olarak kapatma</string>
+    <string name="wifi_timeout_summary_auto">Bağlantılı bir ağ yoksa WiFi <xliff:g id="timeout_description">%1$s</xliff:g> sonra kapanacak</string>
+    <string name="bluetooth_timeout">Bluetooth zaman aşımı</string>
+    <string name="bluetooth_timeout_summary">Bluetooth\'u otomatik olarak kapatma</string>
+    <string name="bluetooth_timeout_summary_auto">Hiçbir cihaz bağlı değilse <xliff:g id="timeout_description">%1$s</xliff:g> sonra Bluetooth kapanacak</string>
+    <string name="custom_timeout_summary_never">Asla</string>
+    <string name="custom_timeout_summary_15secs">15 saniye</string>
+    <string name="custom_timeout_summary_30secs">30 saniye</string>
+    <string name="custom_timeout_summary_1min">1 dakika</string>
+    <string name="custom_timeout_summary_2mins">2 dakika</string>
+    <string name="custom_timeout_summary_5mins">5 dakika</string>
+    <string name="custom_timeout_summary_10mins">10 dakika</string>
+    <string name="custom_timeout_summary_30mins">30 dakika</string>
+    <string name="custom_timeout_summary_1hour">1 saat</string>
+    <string name="custom_timeout_summary_2hours">2 saat</string>
+    <string name="custom_timeout_summary_4hours">4 saat</string>
+    <string name="custom_timeout_summary_8hours">8 saat</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Ekran görüntüsü almak için kaydırın</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
     <!-- Statusbar category name in Display Settings -->
+    <string name="category_name_statusbar_customizations">Durum çubuğu özelleştirmeleri</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">LTE yerine 4G göster</string>
+    <string name="show_fourg_icon_summary">LTE göstergesini 4G ile değiştirir</string>
     <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Mobil veri devre dışı simgesini göster</string>
+    <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal çubuğunun yanında çapraz işaretini gösterin</string>
 </resources>
