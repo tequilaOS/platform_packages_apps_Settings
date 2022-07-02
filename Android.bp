@@ -77,6 +77,7 @@ android_library {
         "powerusagefeaturegoogle",
         "VendorSupportLib",
         "faceunlock_framework",
+        "tequilaSettings",
     ],
 
     libs: [
@@ -147,4 +148,13 @@ java_import {
     name: "powerusagefeaturegoogle",
     jars: ["libs/powerusagefeaturegoogle.jar"],
     sdk_version: "current",
+}
+
+android_library_import {
+    name: "tequilaSettings",
+    aars: ["libs/tequilaSettings.aar"],
+
+    static_libs: [
+        "com.google.android.material_material",
+    ]
 }

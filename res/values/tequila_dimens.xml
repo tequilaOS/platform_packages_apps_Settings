@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tequila_layout_start_padding">25dp</dimen>
+    <dimen name="tequila_layout_end_padding">15dp</dimen>
+    <dimen name="tequila_layout_top_margin">20dp</dimen>
+    <dimen name="tequila_layout_start_margin">@dimen/search_bar_margin</dimen>
+    <dimen name="tequila_layout_end_margin">@dimen/search_bar_margin</dimen>
+    <dimen name="tequila_main_layout_start_margin">11.5dp</dimen>
+    <dimen name="tequila_main_layout_end_margin">11.5dp</dimen>
+    <dimen name="tequila_layout_height_settings">75dp</dimen>
+    <dimen name="tequila_homepage_corner_radius">25dp</dimen>
+    <dimen name="tequila_icon_outline_width">1dp</dimen>
+    <dimen name="tequila_homepage_title_margin_top">28dp</dimen>
+    <dimen name="tequila_homepage_title_margin_start">15dp</dimen>
+    <dimen name="tequila_homepage_title_height">180dp</dimen>
+</resources>

@@ -27,6 +27,7 @@
         android:order="-150"
         android:title="@string/network_dashboard_title"
         android:summary="@string/summary_placeholder"
+        settings:layout="@layout/top_level_preference_top"
         settings:highlightableMenuKey="@string/menu_key_network"
         settings:controller="com.android.settings.network.TopLevelNetworkEntryPreferenceController"/>
 
@@ -37,6 +38,7 @@
         android:order="-140"
         android:title="@string/connected_devices_dashboard_title"
         android:summary="@string/connected_devices_dashboard_default_summary"
+        settings:layout="@layout/top_level_preference_bottom"
         settings:highlightableMenuKey="@string/menu_key_connected_devices"
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
@@ -171,6 +173,7 @@
         android:order="10"
         android:title="@string/header_category_system"
         android:summary="@string/system_dashboard_summary"
+        settings:layout="@layout/top_level_preference_top"
         settings:highlightableMenuKey="@string/menu_key_system"/>
 
     <com.android.settings.widget.HomepagePreference
@@ -180,6 +183,7 @@
         android:order="20"
         android:title="@string/about_settings"
         android:summary="@string/summary_placeholder"
+        settings:layout="@layout/top_level_preference_bottom"
         settings:highlightableMenuKey="@string/menu_key_about_device"
         settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
 
