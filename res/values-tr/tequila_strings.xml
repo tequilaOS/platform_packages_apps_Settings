@@ -53,9 +53,18 @@
     <!-- Statusbar category name in Display Settings -->
     <string name="category_name_statusbar_customizations">Durum çubuğu özelleştirmeleri</string>
     <!-- Show LTE/4G switch -->
-    <string name="show_fourg_icon_title">LTE yerine 4G göster</string>
+    <string name="show_fourg_icon_title">LTE yerine 4G göstergesini göster</string>
     <string name="show_fourg_icon_summary">LTE göstergesini 4G ile değiştirir</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Mobil veri devre dışı simgesini göster</string>
     <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal çubuğunun yanında çapraz işaretini gösterin</string>
+    <!-- Volume dialog timeout -->
+    <string name="unit_seconds">Saniyeler</string>
+    <string name="volume_dialog_timeout_title">Ses paneli zaman aşımı</string>
+    <string name="volume_dialog_timeout_summary">Ses panelinin kapanması için geçen süre</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Modlar arasında geçiş yap</string>
+    <string name="prevent_ringing_option_cycle_summary">Açık (modlar arasında geçiş yap)</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
 </resources>
