@@ -14,4 +14,7 @@
     <!-- Statusbar category name in Display Settings -->
     <!-- Show LTE/4G switch -->
     <!-- Data disabled icon -->
+    <!-- Volume dialog timeout -->
+    <!-- Cycle through ringer modes gesture -->
+    <!-- Volume link notification -->
 </resources>
