@@ -20,4 +20,10 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Debugowanie jako root</string>
     <string name="adb_enable_summary_root">Zezwól na debugowanie Androida jako root</string>
+    <!-- Face Unlock -->
+    <!-- Wifi/Bluetooth auto timeout -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- Statusbar category name in Display Settings -->
+    <!-- Show LTE/4G switch -->
+    <!-- Data disabled icon -->
 </resources>
