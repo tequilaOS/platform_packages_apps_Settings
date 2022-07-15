@@ -21,12 +21,51 @@
     <string name="adb_enable_root">Debugowanie jako root</string>
     <string name="adb_enable_summary_root">Zezwól na debugowanie Androida jako root</string>
     <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Usuń istniejący skan twarzy i utwórz nowy</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Zeskanuj twarz ponownie</string>
+    <string name="face_redo_confirm_btn">Powtórz</string>
+    <string name="face_redo_warning_msg">Czy chcesz usunąć istniejący skan twarzy i utworzyć nowy?</string>
+    <string name="face_unlock_method_title">Zezwól na odblokowywanie twarzą na ekranie blokady</string>
+    <string name="face_unlock_method_default">Gdy ekran jest włączony</string>
+    <string name="face_unlock_method_swipe">Po przesunięciu palcem na ekranie blokady</string>
     <!-- Wifi/Bluetooth auto timeout -->
+    <string name="wifi_timeout">Limit czasu WiFi</string>
+    <string name="wifi_timeout_summary">Nie wyłączaj WiFi automatycznie</string>
+    <string name="wifi_timeout_summary_auto">Wi-Fi wyłączy się po <xliff:g id="timeout_description">%1$s</xliff:g> jeśli sieć nie jest podłączona</string>
+    <string name="bluetooth_timeout">Limit czasu Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Nie wyłączaj Bluetooth automatycznie</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth zostanie wyłączone po czasie <xliff:g id="timeout_description">%1$s</xliff:g>, jeśli żadne urządzenie nie będzie połączone</string>
+    <string name="custom_timeout_summary_never">Nigdy</string>
+    <string name="custom_timeout_summary_15secs">15 sekund</string>
+    <string name="custom_timeout_summary_30secs">30 sekund</string>
+    <string name="custom_timeout_summary_1min">1 minuta</string>
+    <string name="custom_timeout_summary_2mins">2 minuty</string>
+    <string name="custom_timeout_summary_5mins">5 minut</string>
+    <string name="custom_timeout_summary_10mins">10 minut</string>
+    <string name="custom_timeout_summary_30mins">30 minut</string>
+    <string name="custom_timeout_summary_1hour">1 godzina</string>
+    <string name="custom_timeout_summary_2hours">2 godziny</string>
+    <string name="custom_timeout_summary_4hours">4 godziny</string>
+    <string name="custom_timeout_summary_8hours">8 godzin</string>
     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Gest zrzutu ekranu</string>
+    <string name="three_finger_gesture_summary">Przesuń trzema palcami w dół, aby wykonać zrzut ekranu</string>
     <!-- Statusbar category name in Display Settings -->
+    <string name="category_name_statusbar_customizations">Dostosowywanie paska stanu</string>
     <!-- Show LTE/4G switch -->
+    <string name="show_fourg_icon_title">Pokaż 4G zamiast LTE</string>
+    <string name="show_fourg_icon_summary">Zamień wskażnik LTE na 4G</string>
     <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Pokaż ikonę wyłączonej transmisji danych</string>
+    <string name="data_disabled_icon_summary">Wyświetlaj krzyżyk obok ikony sygnału, kiedy transmisja danych jest wyłączona</string>
     <!-- Volume dialog timeout -->
+    <string name="unit_seconds">Sekunda(y)</string>
+    <string name="volume_dialog_timeout_title">Czas wyświetlania panelu głośności</string>
+    <string name="volume_dialog_timeout_summary">Czas po którym panel głośności zniknie</string>
     <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Przełączaj między trybami</string>
+    <string name="prevent_ringing_option_cycle_summary">Włączone (przełączanie między trybami)</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Połącz głośność dzwonka i powiadomień</string>
+    <!-- Screenshot shutter -->
 </resources>
