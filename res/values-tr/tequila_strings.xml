@@ -67,4 +67,5 @@
     <string name="prevent_ringing_option_cycle_summary">Açık (modlar arasında geçiş yap)</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
+    <!-- Screenshot shutter -->
 </resources>
