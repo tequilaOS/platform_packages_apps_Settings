@@ -68,4 +68,5 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
     <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
 </resources>
