@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="connected_tws_device_saved_title">Earbuds yang tersimpan</string>
+    <string name="duration_less_than_one_minute">Kurang dari 1 menit</string>
+    <string name="screen_time_summary_usage_today">%1$s hari ini</string>
+    <string name="device_info_protected_single_press">Sentuh untuk melihat info</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="color_mode_balance_category">Keseimbangan warna</string>
+    <string name="color_mode_balance_red">Kepekatan Merah</string>
+    <string name="color_mode_balance_green">Kepekatan Hijau</string>
+    <string name="color_mode_balance_blue">Kepekatan Biru</string>
+    <string name="keywords_color_balance">warna, keseimbangan warna, koreksi warna, merah, hijau, biru, Live Display</string>
+    <string name="adb_enable_root">Debugging Root</string>
+    <string name="adb_enable_summary_root">Izinkan menjalankan debugging Android sebagai root</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
+    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+    <string name="wifi_timeout">Batas waktu WiFi</string>
+    <string name="wifi_timeout_summary">Jangan nonaktifkan WiFi secara otomatis</string>
+    <string name="wifi_timeout_summary_auto">WiFi akan dinonaktifkan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada jaringan terhubung</string>
+    <string name="bluetooth_timeout">Batas waktu Bluetooth</string>
+    <string name="bluetooth_timeout_summary">Jangan nonaktifkan Bluetooth secara otomatis</string>
+    <string name="bluetooth_timeout_summary_auto">Bluetooth akan dinonaktifkan setelah <xliff:g id="timeout_description">%1$s</xliff:g> jika tidak ada perangkat terhubung</string>
+    <string name="custom_timeout_summary_never">Jangan pernah</string>
+    <string name="custom_timeout_summary_15secs">15 detik</string>
+    <string name="custom_timeout_summary_30secs">30 detik</string>
+    <string name="custom_timeout_summary_1min">1 menit</string>
+    <string name="custom_timeout_summary_2mins">2 menit</string>
+    <string name="custom_timeout_summary_5mins">5 menit</string>
+    <string name="custom_timeout_summary_10mins">10 menit</string>
+    <string name="custom_timeout_summary_30mins">30 menit</string>
+    <string name="custom_timeout_summary_1hour">1 jam</string>
+    <string name="custom_timeout_summary_2hours">2 jam</string>
+    <string name="custom_timeout_summary_4hours">4 jam</string>
+    <string name="custom_timeout_summary_8hours">8 jam</string>
+    <string name="three_finger_gesture">Gesek untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Gesek tiga jari ke bawah untuk menangkap layar</string>
+    <string name="category_name_statusbar_customizations">Kustomisasi bilah status</string>
+    <string name="show_fourg_icon_title">Tampilkan 4G daripada LTE</string>
+    <string name="show_fourg_icon_summary">Ganti indikator bilah status LTE dengan 4G</string>
+    <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
+    <string name="data_disabled_icon_summary">Tampilkan tanda silang di sebelah bar sinyal saat data dinonaktifkan</string>
+    <string name="unit_seconds">Detik(d)</string>
+    <string name="volume_dialog_timeout_title">Waktu habis panel suara</string>
+    <string name="volume_dialog_timeout_summary">Waktu yang dibutuhkan panel volume untuk memudar</string>
+    <string name="prevent_ringing_option_cycle">Melalui mode siklus</string>
+    <string name="prevent_ringing_option_cycle_summary">Aktif (Melalui mode siklus)</string>
+    <string name="volume_link_notification_title">Hubungkan volume dering &amp; notifikasi</string>
+    <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
+    <string name="qs_footer_datausage_title">Penggunaan data harian di setelan cepat bagian bawah</string>
+    <string name="qs_footer_datausage_summary">Tampilkan ringkasan penggunaan data harian di setelan cepat bagian bawah</string>
+</resources>
