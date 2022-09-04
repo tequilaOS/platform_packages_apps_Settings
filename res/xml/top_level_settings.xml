@@ -97,6 +97,16 @@
         settings:highlightableMenuKey="@string/menu_key_display"
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
 
+
+    <Preference
+        android:key="top_level_streak_settings"
+        android:title="@string/bottle_title"
+        android:summary="@string/bottle_summary"
+        android:icon="@drawable/bottle_icon"
+        android:order="-75"
+        android:fragment="com.tequila.settings.Bottle" />
+
+
     <com.android.settings.widget.RestrictedHomepagePreference
         android:icon="@drawable/ic_settings_wallpaper_white"
         android:key="top_level_wallpaper"
