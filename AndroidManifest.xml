@@ -4487,6 +4487,24 @@
             </intent-filter>
         </activity>
 
+        <!-- Bottle -->
+        <activity android:name=".Settings$BottleActivity"
+            android:label="@string/bottle_title"
+            android:icon="@drawable/bottle_icon"
+            android:parentActivityName="com.android.settings"
+            android:exported="true">
+            <intent-filter android:priority="2137">
+                <action android:name="com.android.settings.STREAK_TWEAKS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.tequila.settings.Bottle" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
