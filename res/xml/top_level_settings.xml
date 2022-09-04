@@ -97,6 +97,16 @@
         settings:highlightableMenuKey="@string/menu_key_display"
         settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
 
+
+    <Preference
+        android:key="top_level_tequila_settings"
+        android:title="@string/tequila_settings_title"
+        android:summary="@string/tequila_settings_summary"
+        android:icon="@drawable/ic_tequila_icon"
+        android:order="-75"
+        android:fragment="com.tequila.settings.tequilaSettings" />
+
+
     <com.android.settings.widget.RestrictedHomepagePreference
         android:icon="@drawable/ic_settings_wallpaper_white"
         android:key="top_level_wallpaper"
