@@ -137,7 +137,7 @@
     <dimen name="tequila_settings_title_padding_start_regular_two_pane">8dp</dimen>
 
     <!-- Search bar -->
-    <dimen name="search_bar_margin">16dp</dimen>
+    <dimen name="search_bar_margin">12dp</dimen>
     <dimen name="search_bar_height">52dp</dimen>
     <dimen name="search_bar_text_size">20sp</dimen>
     <dimen name="search_bar_corner_radius">18dp</dimen>
@@ -509,4 +509,15 @@
     <dimen name="qrcode_preview_margin">40dp</dimen>
     <dimen name="qrcode_preview_radius">30dp</dimen>
     <dimen name="qrcode_icon_size">27dp</dimen>
+
+
+    <dimen name="top_preference_layout_height_settings">75dp</dimen>
+    <dimen name="top_preference_layout_start_margin">@dimen/search_bar_margin</dimen>
+    <dimen name="top_preference_layout_end_margin">@dimen/search_bar_margin</dimen>
+    <dimen name="top_preference_layout_top_margin">20dp</dimen>
+    <dimen name="top_preference_layout_end_padding">15dp</dimen>
+    <dimen name="top_preference_layout_start_padding">20dp</dimen>
+    <dimen name="top_level_preference_corner_radius">@dimen/search_bar_corner_radius</dimen>
+    <dimen name="preference_icon_margin">45dp</dimen>
+
 </resources>
