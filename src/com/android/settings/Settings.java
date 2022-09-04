@@ -430,6 +430,8 @@ public class Settings extends SettingsActivity {
      */
     public static class AppDashboardActivity extends SettingsActivity {}
 
+    public static class BottleActivity extends SettingsActivity { /* empty */ }
+
     public static class AdaptiveBrightnessActivity extends SettingsActivity { /* empty */ }
 
     /**

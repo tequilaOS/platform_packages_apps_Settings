@@ -44,7 +44,12 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt", "Bottle/src/**/*.java",],
+
+    resource_dirs: [
+        "res",
+        "Bottle/res",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
