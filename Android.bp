@@ -44,7 +44,12 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java", "src/**/*.kt", "tequilaSettings/src/**/*.java",],
+
+    resource_dirs: [
+        "res",
+        "tequilaSettings/res",
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
