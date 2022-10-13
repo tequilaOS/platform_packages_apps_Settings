@@ -23,8 +23,7 @@
 
     <PreferenceCategory
         android:key="basic_info_category"
-        android:selectable="false"
-        android:title="@string/my_device_info_basic_info_category_title">
+        android:selectable="false">
 
 
         <!-- Device name -->
