@@ -3,6 +3,7 @@
     <!-- tequila -->
     <string name="tequila_version">tequila version</string>
     <string name="tequila_device_platform">Platform</string>
+    <string name="tequila_total_ram">RAM</string>
 
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
