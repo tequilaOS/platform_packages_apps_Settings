@@ -41,6 +41,7 @@
             android:key="tequila_device_platform"
             android:title="@string/tequila_device_platform"
             android:summary="@string/summary_placeholder"
+            android:icon="@drawable/ic_tequila_platform"
             settings:enableCopying="true"
             settings:searchable="false"
             settings:controller="com.android.settings.deviceinfo.tequilaDevicePlatformPreferenceController"/>
