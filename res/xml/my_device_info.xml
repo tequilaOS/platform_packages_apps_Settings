@@ -25,6 +25,11 @@
         android:key="basic_info_category"
         android:selectable="false">
 
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="preview_tequila_logo"
+        android:layout="@layout/tequila_logo"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.preview.PreviewTequilaLogoPreferenceController" />
 
         <!-- Device name -->
         <com.android.settings.widget.ValidatedEditTextPreference
