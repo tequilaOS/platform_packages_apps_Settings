@@ -50,6 +50,15 @@
             settings:searchable="false"
             settings:controller="com.android.settings.deviceinfo.tequilaDevicePlatformPreferenceController"/>
 
+        <!-- tequila total ram -->
+        <Preference
+            android:key="tequila_total_ram"
+            android:title="@string/tequila_total_ram"
+            android:summary="@string/summary_placeholder"
+            settings:enableCopying="true"
+            settings:searchable="false"
+            settings:controller="com.android.settings.deviceinfo.tequilaTotalRamPreferenceController"/>
+
         <!-- Account name -->
         <Preference
             android:key="branded_account"
