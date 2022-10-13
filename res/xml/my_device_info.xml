@@ -40,6 +40,7 @@
             android:key="tequila_device_platform"
             android:title="@string/tequila_device_platform"
             android:summary="@string/summary_placeholder"
+            android:icon="@drawable/tequila_platform"
             settings:enableCopying="true"
             settings:searchable="false"
             settings:controller="com.android.settings.deviceinfo.tequilaDevicePlatformPreferenceController"/>
@@ -49,6 +50,7 @@
             android:key="tequila_total_ram"
             android:title="@string/tequila_total_ram"
             android:summary="@string/summary_placeholder"
+            android:icon="@drawable/tequila_total_ram"
             settings:enableCopying="true"
             settings:searchable="false"
             settings:controller="com.android.settings.deviceinfo.tequilaTotalRamPreferenceController"/>
