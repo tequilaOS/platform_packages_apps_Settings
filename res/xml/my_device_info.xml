@@ -23,7 +23,8 @@
 
     <PreferenceScreen
         android:key="tequila_banner"
-        android:layout="@layout/tequila_banner"/>
+        android:layout="@layout/tequila_banner"
+        android:selectable="false" />
 
     <com.android.settings.widget.ValidatedEditTextPreference
         android:key="device_name"
