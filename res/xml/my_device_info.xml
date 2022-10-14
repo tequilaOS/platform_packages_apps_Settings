@@ -31,6 +31,13 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.tequilaDevicePlatformPreferenceController"/>
 
+    <!-- tequila memory -->
+    <Preference
+        android:key="tequila_device_memory"
+        android:title="@string/tequila_device_memory"
+        android:summary="8GB | 128GB"
+        android:icon="@drawable/ic_tequila_memory" />
+
     <!-- tequila version -->
     <Preference
         android:key="tequila_version"
