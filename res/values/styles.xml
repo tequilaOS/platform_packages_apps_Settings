@@ -307,11 +307,25 @@
         <item name="android:textColor">?android:attr/textColorPrimary</item>
     </style>
 
+    <style name="TextAppearance.tequilaSettingsTitle">
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+        <item name="android:textSize">@dimen/tequila_settings_title_text_size</item>
+        <item name="android:textColor">@color/tequila_settings_title_text_color</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextAppearance.tequilaSettingsSummary">
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+        <item name="android:textSize">@dimen/tequila_settings_summary_text_size</item>
+        <item name="android:textColor">@color/tequila_settings_summary_text_color</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
     <style name="TextAppearance.SearchBar">
         <item name="android:layout_gravity">center</item>
         <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
         <item name="android:textSize">@dimen/search_bar_text_size</item>
-        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textColor">@color/search_bar_text_color</item>
         <item name="android:singleLine">true</item>
     </style>
 
@@ -473,8 +487,13 @@
         <item name="rippleColor">?android:attr/colorControlHighlight</item>
     </style>
 
+    <style name="tequilaSettingsStyle">
+        <item name="cardCornerRadius">@dimen/tequila_settings_corner_radius</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
     <style name="SearchBarStyle">
-        <item name="cardCornerRadius">@dimen/search_bar_corner_radius</item>
+        <item name="cardCornerRadius">@dimen/tequila_settings_corner_radius</item>
         <item name="cardElevation">0dp</item>
     </style>
 
