@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- tequila version -->
-    <string name="tequila_version">tequila version</string>
+    <!-- tequila -->
+    <string name="tequila_version">tequilaOS version</string>
+    <string name="tequila_settings_title">tequila settings</string>
+    <string name="tequila_settings_summary">Customize your device here</string>
 
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Tap to show info</string>
