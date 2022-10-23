@@ -19,7 +19,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/search_bar_margin">
+    android:layout_marginTop="@dimen/search_bar_margin"
+    android:layout_marginLeft="@dimen/search_bar_margin"
+    android:layout_marginRight="@dimen/search_bar_margin">
+    
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/search_bar"
