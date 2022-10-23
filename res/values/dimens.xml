@@ -123,11 +123,24 @@
     <dimen name="switchbar_subsettings_margin_start">72dp</dimen>
     <dimen name="switchbar_subsettings_margin_end">16dp</dimen>
 
+    <!-- tequila settings -->
+    <dimen name="tequila_settings_margin">16dp</dimen>
+    <dimen name="tequila_settings_margin_bottom">0dp</dimen>
+    <dimen name="tequila_settings_height">85dp</dimen>
+    <dimen name="tequila_settings_title_text_size">20sp</dimen>
+    <dimen name="tequila_settings_summary_text_size">12sp</dimen>
+    <dimen name="tequila_settings_corner_radius">18dp</dimen>
+    <dimen name="tequila_settings_content_inset">56dp</dimen>
+    <dimen name="tequila_settings_padding_left">12dp</dimen>
+    <dimen name="tequila_settings_padding_right">10dp</dimen>
+    <dimen name="tequila_settings_title_padding_start">-4dp</dimen>
+    <dimen name="tequila_settings_title_padding_start_regular_two_pane">8dp</dimen>
+
     <!-- Search bar -->
     <dimen name="search_bar_margin">16dp</dimen>
     <dimen name="search_bar_height">52dp</dimen>
-    <dimen name="search_bar_text_size">20sp</dimen>
-    <dimen name="search_bar_corner_radius">28dp</dimen>
+    <dimen name="search_bar_text_size">16sp</dimen>
+    <dimen name="search_bar_corner_radius">@dimen/tequila_settings_corner_radius</dimen>
     <dimen name="search_bar_content_inset">56dp</dimen>
     <dimen name="search_bar_padding_start">4dp</dimen>
     <dimen name="search_bar_padding_start_two_pane">8dp</dimen>
