@@ -1,0 +1,25 @@
+<resources
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+
+    <style name="TextAppearance.tequilaSettings">
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="TextAppearance.tequilaSettingsTitle" parent="TextAppearance.tequilaSettings">
+        <item name="android:textSize">@dimen/tequila_settings_card_title_font_size</item>
+        <item name="android:textColor">@color/tequila_settings_title_text_color</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <style name="TextAppearance.tequilaSettingsSummary" parent="TextAppearance.tequilaSettings">
+        <item name="android:textSize">@dimen/tequila_settings_card_summary_font_size</item>
+        <item name="android:textColor">@color/tequila_settings_summary_text_color</item>
+    </style>
+
+    <style name="tequilaSettingsStyle">
+        <item name="cardCornerRadius">@dimen/tequila_settings_corner_radius</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+</resources>

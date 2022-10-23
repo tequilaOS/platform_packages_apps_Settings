@@ -105,6 +105,7 @@ public class SettingsHomepageActivity extends FragmentActivity implements
     private SplitController mSplitController;
     private boolean mIsEmbeddingActivityEnabled;
     private boolean mIsTwoPane;
+    private View mTequilaSettings;
     // A regular layout shows icons on homepage, whereas a simplified layout doesn't.
     private boolean mIsRegularLayout = true;
 
@@ -189,6 +190,15 @@ public class SettingsHomepageActivity extends FragmentActivity implements
 
         setupEdgeToEdge();
         setContentView(R.layout.settings_homepage_container);
+
+        Intent myIntent = new Intent(this, Settings.tequilaSettingsActivity.class);
+        mTequilaSettings = findViewById(R.id.tequila_settings);
+        mTequilaSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                SettingsHomepageActivity.this.startActivity(myIntent);
+            }
+        });
 
         mSplitController = SplitController.getInstance();
         mIsTwoPane = mSplitController.isActivityEmbedded(this);

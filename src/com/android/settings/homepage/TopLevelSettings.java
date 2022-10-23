@@ -194,6 +194,23 @@ public class TopLevelSettings extends DashboardFragment implements SplitLayoutLi
             if (icon != null) {
                 icon.setTint(tintColor);
             }
+            if(TextUtils.equals(preference.getKey(), "top_level_network")) {
+                preference.setLayoutResource(R.layout.top_level_preference_first);
+            } else if (TextUtils.equals(preference.getKey(), "top_level_apps") ||
+                TextUtils.equals(preference.getKey(), "top_level_battery") ||
+                TextUtils.equals(preference.getKey(), "top_level_location") ||
+                TextUtils.equals(preference.getKey(), "top_level_accessibility") ||
+                TextUtils.equals(preference.getKey(), "top_level_safety_center")) {
+                preference.setLayoutResource(R.layout.top_level_preference_top);
+            } else if (TextUtils.equals(preference.getKey(), "top_level_connected_devices") ||
+                TextUtils.equals(preference.getKey(), "top_level_notifications") ||
+                TextUtils.equals(preference.getKey(), "top_level_wallpaper") ||
+                TextUtils.equals(preference.getKey(), "top_level_privacy") ||
+                TextUtils.equals(preference.getKey(), "top_level_about_device")) {
+                preference.setLayoutResource(R.layout.top_level_preference_bottom);
+            } else {
+                preference.setLayoutResource(R.layout.top_level_preference_middle);
+            }
         });
     }
 

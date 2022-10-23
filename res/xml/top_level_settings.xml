@@ -51,14 +51,6 @@
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
-        android:key="top_level_tequila_settings"
-        android:title="@string/tequila_settings_title"
-        android:summary="@string/tequila_settings_summary"
-        android:icon="@drawable/ic_tequila_settings"
-        android:order="-135"
-        android:fragment="com.tequila.settings.tequilaSettings" />
-
-    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.applications.AppDashboardFragment"
         android:icon="@drawable/ic_apps"
         android:key="top_level_apps"
@@ -125,23 +117,23 @@
         settings:controller="com.android.settings.display.TopLevelWallpaperPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
-        android:fragment="com.android.settings.accessibility.AccessibilitySettings"
-        android:icon="@drawable/ic_settings_accessibility"
-        android:key="top_level_accessibility"
-        android:order="-60"
-        android:title="@string/accessibility_settings"
-        android:summary="@string/accessibility_settings_summary"
-        settings:highlightableMenuKey="@string/menu_key_accessibility"
-        settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
-
-    <com.android.settings.widget.HomepagePreference
         android:icon="@drawable/ic_settings_safety_center"
         android:key="top_level_safety_center"
-        android:order="-55"
+        android:order="-60"
         android:title="@string/safety_center_title"
         android:summary="@string/safety_center_summary"
         settings:highlightableMenuKey="@string/menu_key_safety_center"
         settings:controller="com.android.settings.safetycenter.TopLevelSafetyCenterEntryPreferenceController"/>
+
+    <com.android.settings.widget.HomepagePreference
+        android:fragment="com.android.settings.accessibility.AccessibilitySettings"
+        android:icon="@drawable/ic_settings_accessibility"
+        android:key="top_level_accessibility"
+        android:order="-55"
+        android:title="@string/accessibility_settings"
+        android:summary="@string/accessibility_settings_summary"
+        settings:highlightableMenuKey="@string/menu_key_accessibility"
+        settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
 
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.security.SecuritySettings"

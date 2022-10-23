@@ -126,14 +126,14 @@
     <!-- Search bar -->
     <dimen name="search_bar_margin">16dp</dimen>
     <dimen name="search_bar_height">52dp</dimen>
-    <dimen name="search_bar_text_size">20sp</dimen>
-    <dimen name="search_bar_corner_radius">28dp</dimen>
+    <dimen name="search_bar_text_size">16sp</dimen>
+    <dimen name="search_bar_corner_radius">@dimen/tequila_settings_corner_radius</dimen>
     <dimen name="search_bar_content_inset">56dp</dimen>
     <dimen name="search_bar_padding_start">4dp</dimen>
     <dimen name="search_bar_padding_start_two_pane">8dp</dimen>
     <dimen name="search_bar_padding_end">16dp</dimen>
     <dimen name="search_bar_padding_end_two_pane">24dp</dimen>
-    <dimen name="search_bar_title_padding_start">-4dp</dimen>
+    <dimen name="search_bar_title_padding_start">9dp</dimen>
     <dimen name="search_bar_title_padding_start_regular_two_pane">8dp</dimen>
 
     <!-- Avatar -->
@@ -144,7 +144,7 @@
     <dimen name="multiple_users_user_icon_size">40dp</dimen>
 
     <!-- Homepage -->
-    <dimen name="homepage_title_margin_bottom">8dp</dimen>
+    <dimen name="homepage_title_margin_bottom">20dp</dimen>
     <dimen name="homepage_title_margin_horizontal">24dp</dimen>
     <dimen name="homepage_padding_horizontal_two_pane">24dp</dimen>
     <dimen name="homepage_preference_corner_radius">28dp</dimen>
