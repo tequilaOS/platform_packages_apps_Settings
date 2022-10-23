@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+
+    <color name="search_bar_text_color">@android:color/system_neutral2_700</color>
+
+    <color name="tequila_settings_title_text_color">@android:color/system_neutral1_900</color>
+    <color name="tequila_settings_summary_text_color">@android:color/system_neutral1_800</color>
+    <color name="tequila_settings_background_color">@android:color/system_accent1_100</color>
+    <color name="tequila_settings_logo_tint">@android:color/system_accent1_300</color>
+    <color name="tequila_settings_card_title_color">@android:color/system_neutral1_900</color>
+    <color name="tequila_settings_card_summary_color">@android:color/system_neutral2_700</color>
+    <color name="top_preference_background_color">@android:color/system_neutral1_10</color>
+</resources>
