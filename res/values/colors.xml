@@ -133,7 +133,7 @@
     <color name="qr_background_color">#b3ffffff</color> <!-- 70% white transparency -->
     <!-- End of QR code scanner colors -->
 
-    <!-- Search bar background color -->
+    <!-- Search bar background color-->
     <color name="search_bar_background">?androidprv:attr/colorSurfaceHighlight</color>
 
     <color name="face_enroll_icon_color">#42a5f5</color> <!-- Blue 400 -->
