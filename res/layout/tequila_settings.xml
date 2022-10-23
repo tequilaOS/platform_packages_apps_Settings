@@ -41,8 +41,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_tequila_logo"
-                android:tint="@color/tequila_settings_logo_tint"
+                android:src="@drawable/ic_tequila_logo_dashboard"
                 android:paddingLeft="@dimen/tequila_settings_padding_left"
                 android:paddingRight="@dimen/tequila_settings_padding_right"/>
 
@@ -73,4 +72,3 @@
     </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
-

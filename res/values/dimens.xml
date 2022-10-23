@@ -516,7 +516,7 @@
     <dimen name="top_preference_layout_top_margin">16dp</dimen>
     <dimen name="top_preference_layout_end_padding">16dp</dimen>
     <dimen name="top_preference_layout_start_padding">20dp</dimen>
-    <dimen name="top_level_preference_corner_radius">@dimen/search_bar_corner_radius</dimen>
+    <dimen name="top_level_preference_corner_radius">@dimen/tequila_settings_corner_radius</dimen>
     <dimen name="preference_icon_margin">45dp</dimen>
 
 </resources>

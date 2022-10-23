@@ -30,13 +30,13 @@
             android:id="@android:id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/system_neutral1_0"
+            android:textColor="@color/tequila_settings_card_title_color"
             android:textSize="16sp" />
 
         <TextView
             android:id="@android:id/summary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@android:color/system_neutral1_300"/>
+            android:textColor="@color/tequila_settings_card_summary_color"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
