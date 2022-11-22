@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">Versi tequilaOS</string>
+    <string name="tequila_settings_title">Setelan tequilaOS</string>
+    <string name="tequila_settings_summary">Kustomisasi perangkatmu di sini</string>
+    <string name="device_info_protected_single_press">Sentuh untuk melihat info</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="three_finger_gesture">Gesek untuk menangkap layar</string>
+    <string name="three_finger_gesture_summary">Gesek tiga jari ke bawah untuk menangkap layar</string>
+    <string name="ring_only_volume_option_title">Volume dering</string>
+    <string name="volume_link_notification_title">Hubungkan volume dering &amp; notifikasi</string>
+</resources>
