@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">tequilaOS sürümü</string>
+    <string name="tequila_settings_title">tequilaOS Ayarları</string>
+    <string name="tequila_settings_summary">Cihazınızı özelleştirin</string>
+    <string name="device_info_protected_single_press">Bilgileri göstermek için tıkla</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="three_finger_gesture">Ekran görüntüsü almak için kaydırın</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
+    <string name="ring_only_volume_option_title">Zil sesi</string>
+    <string name="volume_link_notification_title">Zil sesi ve bildirim sesini bağla</string>
+</resources>
