@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">Versión tequilaOS</string>
+    <string name="tequila_settings_title">Ajustes de tequilaOS</string>
+    <string name="tequila_settings_summary">Personaliza tu dispositivo aquí</string>
+    <string name="min_refresh_rate_title">Frecuencia de actualización mínima</string>
+    <string name="max_refresh_rate_title">Frecuencia de actualización máxima</string>
+    <string name="adb_enable_root">Depuración como Superusuario</string>
+    <string name="adb_enable_summary_root">Permite ejecutar la depuración de Android como superusuario</string>
+    <string name="other_controls_title">Otros controles</string>
+    <string name="fullscreen_gestures_title">Gestos a pantalla completa</string>
+    <string name="fullscreen_gestures_summary">Ocultar píldora de navegación y espacio de teclado</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Elimina el escaneo facial existente y crea uno nuevo</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Rehacer escaneo facial</string>
+    <string name="face_redo_confirm_btn">Rehacer</string>
+    <string name="face_redo_warning_msg">¿Desea eliminar el escaneo facial actual y crear uno nuevo?</string>
+    <string name="face_unlock_method_title">Permitir desbloqueo facial en la pantalla de bloqueo</string>
+    <string name="face_unlock_method_default">Cuando la pantalla está encendida</string>
+    <string name="face_unlock_method_swipe">Cuando deslizas en la pantalla de bloqueo</string>
+</resources>

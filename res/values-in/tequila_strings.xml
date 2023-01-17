@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">Versi tequilaOS</string>
+    <string name="tequila_settings_title">Setelan tequilaOS</string>
+    <string name="tequila_settings_summary">Kustomisasi perangkatmu di sini</string>
+    <string name="min_refresh_rate_title">Kecepatan refresh minimum</string>
+    <string name="max_refresh_rate_title">Kecepatan refresh maksimum</string>
+    <string name="adb_enable_root">Debugging Root</string>
+    <string name="adb_enable_summary_root">Izinkan menjalankan debugging Android sebagai root</string>
+    <string name="other_controls_title">Kontrol lainnya</string>
+    <string name="fullscreen_gestures_title">Gestur layar penuh</string>
+    <string name="fullscreen_gestures_summary">Sembunyikan gestur bilah navigasi dan ruang keyboard</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Hapus pemindaian wajah yang ada dan buat pemindaian baru</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Ulangi pemindaian wajah</string>
+    <string name="face_redo_confirm_btn">Ulangi</string>
+    <string name="face_redo_warning_msg">Apakah Anda ingin menghapus pemindaian wajah yang ada dan membuat pemindaian baru?</string>
+    <string name="face_unlock_method_title">Izinkan face unlock di layar kunci</string>
+    <string name="face_unlock_method_default">Saat layar dihidupkan</string>
+    <string name="face_unlock_method_swipe">Saat mengusap layar kunci</string>
+</resources>
