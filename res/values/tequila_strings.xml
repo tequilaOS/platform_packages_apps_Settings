@@ -39,4 +39,8 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
 </resources>
