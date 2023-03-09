@@ -16,6 +16,23 @@
       "message": "Personally I wouldn\u0027t touch upstream like that and approach it more lightly, like in here:\nhttps://github.com/LineageOS/android_packages_apps_Settings/commit/f4da550508e16ed4cad579449efd0844811dae5a",
       "revId": "bb086ddf9eea7360240a659f82a59b962889b6f7",
       "serverId": "6e240c91-23cb-42f0-b60c-7c3c525b6cb9"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c1a243e_60f15ecd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-03-09T07:27:48Z",
+      "side": 1,
+      "message": "^ agree",
+      "revId": "bb086ddf9eea7360240a659f82a59b962889b6f7",
+      "serverId": "6e240c91-23cb-42f0-b60c-7c3c525b6cb9"
     }
   ]
 }
