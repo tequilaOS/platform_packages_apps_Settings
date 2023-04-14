@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">tequilaOS-Version</string>
+    <string name="tequila_settings_title">tequilaOS Einstellungen</string>
+    <string name="tequila_settings_summary">Passe dein Gerät an</string>
+    <string name="min_refresh_rate_title">Minimale Bildwiederholrate</string>
+    <string name="max_refresh_rate_title">Maximale Bildwiederholrate</string>
+    <string name="adb_enable_root">Root-Debugging</string>
+    <string name="adb_enable_summary_root">Android-Debugging als Root erlauben</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Fingerabdrucksensor lange gedrückt halten, um das Smartphone zu entsperren</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Fingerabdrucksensor lange gedrückt halten, um das Tablet zu entsperren</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">Fingerabdrucksensor lange gedrückt halten, um das Gerät zu entsperren</string>
+    <string name="ambient_display_screen_off_udfps_summary">Zum Anschalten und Entsperren den Fingerabdrucksensor unter dem Display lang gedrückt halten.</string>
+    <string name="other_controls_title">Andere Steuerungen</string>
+    <string name="fullscreen_gestures_title">Vollbildschirmgesten</string>
+    <string name="fullscreen_gestures_summary">Pille von Navigationsleiste und Abstand von Tastaturbereich ausblenden</string>
+    <string name="three_finger_gesture">Wischen um Screenshot zu machen</string>
+    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen um einen Screenshot zu machen</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">Версия tequilaOS</string>
+    <string name="tequila_settings_title">Настройки tequilaOS</string>
+    <string name="tequila_settings_summary">Кастомизация своего телефона</string>
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
+    <string name="adb_enable_root">Рутированный дебаг</string>
+    <string name="adb_enable_summary_root">Позволять дебаггинг Adroid\'a в рутиованном состоянии</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Долгое нажатие по сканеру отпечатка пальца для разблокировки</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Долгое нажатие по сканеру отпечатка пальца для разблокировки планшета</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">Долгое нажатие по сканеру отпечатка пальца для разблокировки телефона</string>
+    <string name="ambient_display_screen_off_udfps_summary">Зажмите сканер отпечатка пальца под экраном для разблокировки.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Скрытая сеть</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Название вашей точки доступа не появится в списке доступных сетей.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Никогда не отключать</string>
+    <string name="wifi_hotspot_client_manager_title">Подключённые устройства</string>
+    <string name="wifi_hotspot_client_manager_summary">Показать и управлять подключёнными устройствами</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Показать все подключённые устройства</string>
+    <string name="wifi_hotspot_client_limit_title">Лимит подключений</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Заблокированные устройства</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Подключённые устройства</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Заблокировать</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Это действие отключит и заблокирует \"<xliff:g id="device_name">%1$s</xliff:g>\" навсегда</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Разблокировать</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Теперь \"<xliff:g id="device_name">%1$s</xliff:g>\" может подключаться к вашей точке доступа</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Устройства недоступны. Подключённые и заблокированные устройства будут показаны здесь.</string>
+    <string name="custom_timeout_summary_never">Никогда</string>
+    <string name="custom_timeout_summary_30secs">30 секунд</string>
+    <string name="custom_timeout_summary_1min">1 минута</string>
+    <string name="custom_timeout_summary_5mins">5 минут</string>
+    <string name="custom_timeout_summary_10mins">10 минут</string>
+    <string name="custom_timeout_summary_30mins">30 минут</string>
+    <string name="custom_timeout_summary_1hour">1 час</string>
+    <string name="other_controls_title">Другое управление</string>
+    <string name="fullscreen_gestures_title">Жесты в полноэкранном режиме</string>
+    <string name="fullscreen_gestures_summary">Скрыть полосу панели навигации и отступы клавиатуры</string>
+    <string name="button_settings_activity_title">Настройки навигации тремя кнопками</string>
+    <string name="navigation_bar_inverse_title">Инвертировать расположение</string>
+    <string name="navigation_bar_inverse_summary">Поменять местами кнопки «Назад» и «Недавние»</string>
+    <string name="three_finger_gesture">Провести для скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами, чтобы сделать скриншот</string>
+    <string name="prevent_ringing_option_cycle">Чередоваться между режимами</string>
+    <string name="prevent_ringing_option_cycle_summary">Вкл. (чередование между режимами)</string>
+</resources>

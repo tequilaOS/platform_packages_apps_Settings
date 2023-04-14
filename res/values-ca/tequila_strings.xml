@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">Versió de tequilaOS</string>
+    <string name="tequila_settings_title">Configuració de tequilaOS</string>
+    <string name="tequila_settings_summary">Personalitza el teu dispositiu aquí</string>
+    <string name="min_refresh_rate_title">Freqüència de mostratge mínima</string>
+    <string name="max_refresh_rate_title">Freqüència de mostratge màxima</string>
+    <string name="adb_enable_root">Depuració amb accés d\'arrel</string>
+    <string name="adb_enable_summary_root">Permet executar la depuració d\'Android amb accés d\'arrel</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Manté premut el sensor d\'empremtes per desbloquejar el telèfon</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Manté premut el sensor d\'empremtes per desbloquejar la tauleta</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">Manté premut el sensor d\'empremtes per desbloquejar el dispositiu</string>
+    <string name="ambient_display_screen_off_udfps_summary">Per activar la pantalla i desbloquejar-la, manté premut el sensor d\'empremtes de sota la pantalla.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Xarxa oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">El nom del punt d\'accés mòbil no apareixerà a la llista de xarxes WLAN disponibles.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">No desactivis mai el punt d\'accés</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositius connectats</string>
+    <string name="wifi_hotspot_client_manager_summary">Mostra i gestiona els dispositius connectats al punt d\'accés</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Mostra els dispositius connectats al punt d\'accés</string>
+    <string name="wifi_hotspot_client_limit_title">Límit de dispositius connectats</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositius bloquejats</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositius connectats</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloqueja el dispositiu</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Aquesta acció desconnectarà \"<xliff:g id="device_name">%1$s</xliff:g>\" d\'aquest dispositiu i l\'afegirà a la llista de bloqueig</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloqueja el dispositiu</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">El dispositiu «<xliff:g id="device_name">%1$s</xliff:g>» podrà connectar-se al punt d\'accés</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Actualment no hi ha clients disponibles. Els dispositius connectats i bloquejats es mostraran aquí quan estiguin disponibles.</string>
+    <string name="custom_timeout_summary_never">Mai</string>
+    <string name="custom_timeout_summary_30secs">30 segons</string>
+    <string name="custom_timeout_summary_1min">1 minut</string>
+    <string name="custom_timeout_summary_5mins">5 minuts</string>
+    <string name="custom_timeout_summary_10mins">10 minuts</string>
+    <string name="custom_timeout_summary_30mins">30 minuts</string>
+    <string name="custom_timeout_summary_1hour">1 hora</string>
+    <string name="other_controls_title">Altres controls</string>
+    <string name="fullscreen_gestures_title">Gestos en pantalla completa</string>
+    <string name="fullscreen_gestures_summary">Amaga la línia de navegació i l\'espai del teclat</string>
+    <string name="button_settings_activity_title">Configuració de navegació de 3 botons</string>
+    <string name="navigation_bar_inverse_title">Disseny invers</string>
+    <string name="navigation_bar_inverse_summary">Canvia les posicions entre enrere i recents</string>
+    <string name="three_finger_gesture">Llisca per a fer una captura</string>
+    <string name="three_finger_gesture_summary">Llisca cap avall amb tres dits per fer una captura de pantalla</string>
+    <string name="prevent_ringing_option_cycle">Cicle entre els modes</string>
+    <string name="prevent_ringing_option_cycle_summary">Activat (cicle entre els modes)</string>
+</resources>
