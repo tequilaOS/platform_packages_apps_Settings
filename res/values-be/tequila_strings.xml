@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">Версія tequilaOS</string>
+    <string name="tequila_settings_title">Налады tequilaOS</string>
+    <string name="tequila_settings_summary">Наладзьце свой тэлефон тут</string>
+    <string name="min_refresh_rate_title">Мінімальная частата абнаўлення</string>
+    <string name="max_refresh_rate_title">Максімальная частата абнаўлення</string>
+    <string name="adb_enable_root">Рутірованная наладка</string>
+    <string name="adb_enable_summary_root">Дазваляць рутірованную наладку тэлефона</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Доўгі націск па сканеру адбітка пальца для разблакіроўкі</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Доўгі націск па сканеру адбітка пальца для разблакіроўкі планшэта</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">Доўгі націск па сканеру адбітка пальца для разблакіроўкі дэвайса</string>
+    <string name="ambient_display_screen_off_udfps_summary">Зацісніце сканер адбітка пальца пад экранам для разблакіроўкі.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Захаваная сетка</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Імя вашай кропкі доступу не з\'явіцца ў спісу даступных сетак.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Ніколі не выключаць кропку доступу</string>
+    <string name="wifi_hotspot_client_manager_title">Падлучаныя девайсы</string>
+    <string name="wifi_hotspot_client_manager_summary">Паказаць і наладзіць падлучаныя дэвайсы</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Паказаць спіс падлучаных дэвайсах</string>
+    <string name="wifi_hotspot_client_limit_title">Ліміт падлучаных дэвайсах</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Заблакіраваныя дэвайсы</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Падлучаныя дэвайсы</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Заблакіраваць</string>
+</resources>

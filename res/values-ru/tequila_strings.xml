@@ -2,11 +2,11 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="tequila_version">Версия tequilaOS</string>
     <string name="tequila_settings_title">Настройки tequilaOS</string>
-    <string name="tequila_settings_summary">Кастомизация своего телефона</string>
+    <string name="tequila_settings_summary">Настройте ваш телефон здесь</string>
     <string name="min_refresh_rate_title">Минимальная частота обновления</string>
     <string name="max_refresh_rate_title">Максимальная частота обновления</string>
-    <string name="adb_enable_root">Рутированный дебаг</string>
-    <string name="adb_enable_summary_root">Позволять дебаггинг Adroid\'a в рутиованном состоянии</string>
+    <string name="adb_enable_root">Рутированная отладка</string>
+    <string name="adb_enable_summary_root">Позволять делать отладку телефона как рут пользователь</string>
     <string name="ambient_display_screen_off_udfps_title" product="default">Долгое нажатие по сканеру отпечатка пальца для разблокировки</string>
     <string name="ambient_display_screen_off_udfps_title" product="tablet">Долгое нажатие по сканеру отпечатка пальца для разблокировки планшета</string>
     <string name="ambient_display_screen_off_udfps_title" product="device">Долгое нажатие по сканеру отпечатка пальца для разблокировки телефона</string>
@@ -32,7 +32,9 @@
     <string name="custom_timeout_summary_10mins">10 минут</string>
     <string name="custom_timeout_summary_30mins">30 минут</string>
     <string name="custom_timeout_summary_1hour">1 час</string>
-    <string name="other_controls_title">Другое управление</string>
+    <string name="tethering_allow_vpn_upstreams_title">Позволять клиентам использовать VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам использовать VPN подключения этого девайса</string>
+    <string name="other_controls_title">Другие настройки</string>
     <string name="fullscreen_gestures_title">Жесты в полноэкранном режиме</string>
     <string name="fullscreen_gestures_summary">Скрыть полосу панели навигации и отступы клавиатуры</string>
     <string name="button_settings_activity_title">Настройки навигации тремя кнопками</string>
@@ -42,4 +44,51 @@
     <string name="three_finger_gesture_summary">Проведите вниз тремя пальцами, чтобы сделать скриншот</string>
     <string name="prevent_ringing_option_cycle">Чередоваться между режимами</string>
     <string name="prevent_ringing_option_cycle_summary">Вкл. (чередование между режимами)</string>
+    <string name="power_button_torch_title">Быстрый фонарик</string>
+    <string name="power_button_torch_summary">Долгое нажатие кнопки питания включит фонарик, если экран телефона выключен</string>
+    <string name="app_notification_sound_timeout_title">Минимальное время между звуками уведомлений</string>
+    <string name="app_notification_sound_timeout_summary_template">Разрешить звуки или вибрацию не более чем один раз каждые <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Нет ограничений</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 секунд</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 секунд</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 минута</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Ваше подключение не будет защищённым.</string>
+    <string name="storage_warning_internal">Внимание: эта опция может работать неправильно или привести к утечке данных, поэтому она не рекомендована!</string>
+    <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
+    <string name="display_cutout_force_fullscreen_summary">Заставить приложения игнорировать вырез</string>
+    <string name="search">Поиск</string>
+    <string name="search_apps">Поиск приложений</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить существующий скан лица и добавить новый</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Переделать скан</string>
+    <string name="face_redo_confirm_btn">Переделать</string>
+    <string name="face_redo_warning_msg">Вы точно хотите удалить существующий скан лица и добавить новый?</string>
+    <string name="face_unlock_method_title">Позволять разблокировку на экране блокировки</string>
+    <string name="face_unlock_method_default">При включённом экране</string>
+    <string name="face_unlock_method_swipe">При свайпе в блокировке</string>
+    <string name="adaptive_playback_screen_title">Умная пауза</string>
+    <string name="adaptive_playback_master_switch_title">Использовать умную паузу</string>
+    <string name="adaptive_playback_disabled_summary">Выкл</string>
+    <string name="adaptive_playback_intro_text">Автоматически ставит на паузу видео/музыку, когда звук заглушен. Видео/музыка будут убраны с паузы при восстановлении звука вовремя.</string>
+    <string name="adaptive_playback_timeout_title">Таймер паузы</string>
+    <string name="adaptive_playback_timeout_none">Без паузы</string>
+    <string name="adaptive_playback_timeout_none_summary">Вкл (без паузы)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Вкл (30 секунд)</string>
+    <string name="adaptive_playback_timeout_1_min">1 минута</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Вкл (1 минуты)</string>
+    <string name="adaptive_playback_timeout_2_min">2 минуты</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Вкл (2 минуты)</string>
+    <string name="adaptive_playback_timeout_5_min">5 минут</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Вкл (5 минут)</string>
+    <string name="adaptive_playback_timeout_10_min">10 минут</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Вкл (10 минут)</string>
+    <string name="system_black_theme_title">Тёмная тема</string>
+    <string name="system_black_theme_summary">Вынужденная тёмная тема</string>
+    <string name="platform_revision">Платформа</string>
+    <string name="total_ram">Всего ОЗУ</string>
+    <string name="duration_less_than_one_minute">Меньше минуты</string>
+    <string name="screen_time_summary_usage_today">%1$s сегодня</string>
 </resources>

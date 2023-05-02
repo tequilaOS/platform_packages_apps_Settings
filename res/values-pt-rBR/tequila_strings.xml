@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">Versão da tequila</string>
+    <string name="tequila_settings_title">configurações da tequila</string>
+    <string name="tequila_settings_summary">Personalize seu dispositivo aqui</string>
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
+    <string name="adb_enable_root">Depuração como superusuário</string>
+    <string name="adb_enable_summary_root">Permitir a depuração do Android como superusuário</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Pressione e segure o sensor de impressão digital para desbloquear o telefone</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Pressione e segure o sensor de impressão digital para desbloquear o ‘tablet’</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">Pressione e segure o sensor de impressão digital para desbloquear o dispositivo</string>
+    <string name="ambient_display_screen_off_udfps_summary">Para ativar sua tela e desbloquear, pressione e segure o sensor de impressão digital sob a tela.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">O nome do seu ponto de acesso não aparecerá na lista de redes Wi-Fi disponíveis.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nunca desativar o ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Listar e gerenciar dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Listar dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_limit_title">Limite de dispositivos conectados</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos Conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta ação desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" deste dispositivo e o adicionará à lista de bloqueio</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Este dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" será capaz de se conectar ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente disponível. Dispositivos conectados e bloqueados aparecerão quando disponíveis.</string>
+    <string name="custom_timeout_summary_never">Nunca</string>
+    <string name="custom_timeout_summary_30secs">30 segundos</string>
+    <string name="custom_timeout_summary_1min">1 minuto</string>
+    <string name="custom_timeout_summary_5mins">5 minutos</string>
+    <string name="custom_timeout_summary_10mins">10 minutos</string>
+    <string name="custom_timeout_summary_30mins">30 minutos</string>
+    <string name="custom_timeout_summary_1hour">1 hora</string>
+    <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes do ponto de acesso usem este dispositivo\u2019 para conexão VPN de alta velocidade</string>
+    <string name="other_controls_title">Outros controles</string>
+    <string name="fullscreen_gestures_title">Gestos em tela cheia</string>
+    <string name="fullscreen_gestures_summary">Ocultar pílula da barra de navegação e o espaço do teclado</string>
+    <string name="button_settings_activity_title">Configurações do modo de navegação por 3 botões</string>
+    <string name="navigation_bar_inverse_title">Inverter disposição</string>
+    <string name="navigation_bar_inverse_summary">Mudar a ordem dos botões voltar e aplicativos recentes</string>
+    <string name="three_finger_gesture">Deslize para capturar a tela</string>
+    <string name="three_finger_gesture_summary">Deslizar para baixo com três dedos para capturar tela</string>
+    <string name="prevent_ringing_option_cycle">Alternar entre modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Ligado (alternar entre modos)</string>
+    <string name="power_button_torch_title">Lanterna rápida</string>
+    <string name="power_button_torch_summary">Quando a tela estiver desligada, segure o botão liga/desliga para ativar a lanterna</string>
+    <string name="app_notification_sound_timeout_title">Tempo mínimo entre os sons de notificação</string>
+    <string name="app_notification_sound_timeout_summary_template">Permitir sons ou vibrações apenas uma vez a cada <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Sem restrições</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 segundos</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Nenhum certificado especificado. Sua conexão não será particular.</string>
+    <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar à perda de dados, portanto, não é recomendada!</string>
+    <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o espaço do entalhe</string>
+    <string name="search">Pesquisa</string>
+    <string name="search_apps">Pesquisar aplicativos</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Fazer um novo escaneamento facial e remover o existente</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Refazer leitura facial</string>
+    <string name="face_redo_confirm_btn">Refazer</string>
+    <string name="face_redo_warning_msg">Deseja remover o escaneamento facial existente e criar um novo?</string>
+    <string name="face_unlock_method_title">Permitir desbloqueio facial na tela de bloqueio</string>
+    <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
+    <string name="face_unlock_method_swipe">Quando deslizar na tela de bloqueio</string>
+    <string name="adaptive_playback_screen_title">Pausa inteligente</string>
+    <string name="adaptive_playback_master_switch_title">Usar pausa inteligente</string>
+    <string name="adaptive_playback_disabled_summary">Desligado</string>
+    <string name="adaptive_playback_intro_text">A reprodução adaptável pausa automaticamente a mídia quando o volume é silenciado e retorna automaticamente quando o volume for restaurado no tempo definido.</string>
+    <string name="adaptive_playback_timeout_title">Usar um tempo limite de</string>
+    <string name="adaptive_playback_timeout_none">Sem tempo limite</string>
+    <string name="adaptive_playback_timeout_none_summary">Ligado (sem limite de tempo)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ligado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ligado (2 minuto)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ligado (5 minuto)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ligado (10 minuto)</string>
+    <string name="system_black_theme_title">Usar tema preto</string>
+    <string name="system_black_theme_summary">Forçar fundo preto</string>
+    <string name="platform_revision">Plataforma</string>
+    <string name="total_ram">Total de memória RAM</string>
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <string name="screen_time_summary_usage_today">%1$s hoje</string>
+</resources>
