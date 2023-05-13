@@ -140,4 +140,8 @@
     <!-- Force LTE_CA -->
     <string name="force_lte_ca">Force LTE CA</string>
     <string name="force_lte_ca_summary">Force LTE carrier aggregation to work</string>
+
+    <!-- Disable 5G in battery saver -->
+    <string name="battery_saver_5g_title">Turn off 5G</string>
+    <string name="battery_saver_5g_summary">Disable 5G to save power when Battery Saver is on</string>
 </resources>
