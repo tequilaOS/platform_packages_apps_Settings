@@ -87,4 +87,8 @@
     <string name="adaptive_playback_timeout_10_min_summary">Aktif (10 menit)</string>
     <string name="system_black_theme_title">Gunakan tema gelap</string>
     <string name="system_black_theme_summary">Paksa warna latar belakang hitam</string>
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
+    <string name="duration_less_than_one_minute">Kurang dari 1 Menit</string>
+    <string name="screen_time_summary_usage_today">%1$s hari ini</string>
 </resources>

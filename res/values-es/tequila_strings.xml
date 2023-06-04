@@ -87,4 +87,8 @@
     <string name="adaptive_playback_timeout_10_min_summary">Activado (10 minutos)</string>
     <string name="system_black_theme_title">Usar tema negro</string>
     <string name="system_black_theme_summary">Forzar colores de fondo negros</string>
+    <string name="platform_revision">Plataforma</string>
+    <string name="total_ram">RAM total</string>
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <string name="screen_time_summary_usage_today">%1$s hoy</string>
 </resources>
