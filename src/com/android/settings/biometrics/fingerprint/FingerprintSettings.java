@@ -285,7 +285,7 @@ public class FingerprintSettings extends SubSettings {
                     case MSG_REFRESH_FINGERPRINT_TEMPLATES:
                         removeFingerprintPreference(msg.arg1);
                         updateAddPreference();
-                        if (isSfps()) {
+                        if (!isUdfps()) {
                             updateFingerprintUnlockCategoryVisibility();
                         }
                         updatePreferences();
@@ -487,9 +487,13 @@ public class FingerprintSettings extends SubSettings {
         }
 
         private boolean isUdfps() {
-            for (FingerprintSensorPropertiesInternal prop : mSensorProperties) {
-                if (prop.isAnyUdfpsType()) {
-                    return true;
+            mFingerprintManager = Utils.getFingerprintManagerOrNull(getActivity());
+            if (mFingerprintManager != null) {
+                mSensorProperties = mFingerprintManager.getSensorPropertiesInternal();
+                for (FingerprintSensorPropertiesInternal prop : mSensorProperties) {
+                    if (prop.isAnyUdfpsType()) {
+                        return true;
+                    }
                 }
             }
             return false;
@@ -546,7 +550,7 @@ public class FingerprintSettings extends SubSettings {
             // This needs to be after setting ids, otherwise
             // |mRequireScreenOnToAuthPreferenceController.isChecked| is always checking the primary
             // user instead of the user with |mUserId|.
-            if (isSfps()) {
+            if (!isUdfps()) {
                 scrollToPreference(fpPrefKey);
                 addFingerprintUnlockCategory();
             }
@@ -848,7 +852,7 @@ public class FingerprintSettings extends SubSettings {
 
         private List<AbstractPreferenceController> buildPreferenceControllers(Context context) {
             final List<AbstractPreferenceController> controllers = new ArrayList<>();
-            if (isSfps()) {
+            if (!isUdfps()) {
                 mFingerprintUnlockCategoryPreferenceController =
                     new FingerprintUnlockCategoryController(
                         context,
