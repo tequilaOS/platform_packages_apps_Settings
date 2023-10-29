@@ -47,13 +47,14 @@ public final class DeviceLockPreferenceController extends BasePreferenceControll
     @Override
     public void updateState(Preference preference) {
         super.updateState(preference);
-        mDeviceLockManager.getKioskApps(mContext.getMainExecutor(),
-                result -> {
-                    // if kiosk apps present on the device, the device is provisioned by Device Lock
-                    boolean isDeviceProvisionedByDeviceLock = result != null && !result.isEmpty();
-                    Log.d(TAG, "Set preference visibility to " + isDeviceProvisionedByDeviceLock);
-                    // TODO(b/282179089): find alternatives instead of calling setVisible
-                    preference.setVisible(isDeviceProvisionedByDeviceLock);
-                });
+        if (mDeviceLockManager != null)
+            mDeviceLockManager.getKioskApps(mContext.getMainExecutor(),
+                    result -> {
+                        // if kiosk apps present on the device, the device is provisioned by Device Lock
+                        boolean isDeviceProvisionedByDeviceLock = result != null && !result.isEmpty();
+                        Log.d(TAG, "Set preference visibility to " + isDeviceProvisionedByDeviceLock);
+                        // TODO(b/282179089): find alternatives instead of calling setVisible
+                        preference.setVisible(isDeviceProvisionedByDeviceLock);
+                    });
     }
 }
