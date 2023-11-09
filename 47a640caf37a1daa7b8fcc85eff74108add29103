@@ -16,6 +16,24 @@
       "message": "replace tabs with spaces",
       "revId": "47a640caf37a1daa7b8fcc85eff74108add29103",
       "serverId": "6e240c91-23cb-42f0-b60c-7c3c525b6cb9"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf82eace_88f5d6fa",
+        "filename": "res/xml/network_provider_internet.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-09T09:43:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c3b4239_e81190a6",
+      "revId": "47a640caf37a1daa7b8fcc85eff74108add29103",
+      "serverId": "6e240c91-23cb-42f0-b60c-7c3c525b6cb9"
     }
   ]
 }
