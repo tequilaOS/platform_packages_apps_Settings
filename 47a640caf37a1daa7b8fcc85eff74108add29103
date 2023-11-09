@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c3b4239_e81190a6",
+        "filename": "res/xml/network_provider_internet.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2023-11-09T09:24:41Z",
+      "side": 1,
+      "message": "replace tabs with spaces",
+      "revId": "47a640caf37a1daa7b8fcc85eff74108add29103",
+      "serverId": "6e240c91-23cb-42f0-b60c-7c3c525b6cb9"
+    }
+  ]
+}
