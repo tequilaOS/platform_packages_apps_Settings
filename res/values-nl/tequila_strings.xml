@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">tequilaOS versie</string>
+    <string name="min_refresh_rate_title">Minimale verversingsfrequentie</string>
+    <string name="max_refresh_rate_title">Maximale verversingsfrequentie</string>
+    <string name="storage_warning_internal">Waarschuwing: Deze optie werkt mogelijk niet goed of leidt tot gegevensverlies en wordt daarom niet aangeraden!</string>
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Totale geheugen</string>
+    <string name="system_black_theme_title">Zwarte thema gebruiken</string>
+    <string name="system_black_theme_summary">Forceer zwarte achtergrondkleuren</string>
+    <string name="ignore_window_secure_summary">Hiermee worden de screenshot en schermopname limitaties voor alle applicaties verwijderd, wat tot mogelijke gegevens lekkages kan leiden. Na aan/uitzetten is het mogelijk dat je je applicaties opnieuw moet starten.</string>
+</resources>

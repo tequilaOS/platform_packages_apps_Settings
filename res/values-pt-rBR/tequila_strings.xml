@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">Versão da tequilaOS</string>
+    <string name="min_refresh_rate_title">Taxa de atualização mínima</string>
+    <string name="max_refresh_rate_title">Taxa de atualização máxima</string>
+    <string name="storage_warning_internal">Aviso: Esta opção pode não funcionar corretamente ou levar à perda de dados, portanto, não é recomendada!</string>
+    <string name="platform_revision">Plataforma</string>
+    <string name="total_ram">Total de memória RAM</string>
+    <string name="system_black_theme_title">Usar tema preto</string>
+    <string name="system_black_theme_summary">Forçar tema preto para a cor de fundo</string>
+    <string name="ignore_window_secure_title">Ignorar sinalizadores de segurança de janela</string>
+    <string name="ignore_window_secure_summary">Isso remove os limites de captura de tela e gravação de tela para todos os aplicativos, mas pode levar a vazamentos de privacidade. Após alternar, pode ser necessário reiniciar seus aplicativos.</string>
+</resources>

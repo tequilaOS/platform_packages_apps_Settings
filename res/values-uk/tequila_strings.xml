@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">Версія tequilaOS</string>
+    <string name="min_refresh_rate_title">Мінімальна частота оновлення</string>
+    <string name="max_refresh_rate_title">Максимальна частота оновлення</string>
+    <string name="storage_warning_internal">Увага: Ця опція може працювати неправильно або призвести до втрати даних, тому не є рекомендованою!</string>
+    <string name="platform_revision">Платформа</string>
+    <string name="total_ram">Об\'єм ОЗП</string>
+    <string name="system_black_theme_title">Використовувати темну тему</string>
+    <string name="system_black_theme_summary">Примусово використовувати чорні кольори фону</string>
+    <string name="ignore_window_secure_title">Ігнорувати прапорці безпеки вікон</string>
+    <string name="ignore_window_secure_summary">Це видалить обмеження на знімки та запис екрана для всіх програм, але може призвести до витоку конфіденційної інформації. Після увімкнення може знадобитися перезапуск програм.</string>
+</resources>

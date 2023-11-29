@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022-2023 tequilaOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="tequila_version">Versió de tequilaOS</string>
+    <string name="min_refresh_rate_title">Freqüència de refresc mínima</string>
+    <string name="max_refresh_rate_title">Freqüència de refresc màxima</string>
+    <string name="storage_warning_internal">Atenció: Aquesta opció pot no funcionar correctament o provocar pèrdues de dades, per tant, no es recomana!</string>
+    <string name="platform_revision">Plataforma</string>
+    <string name="total_ram">RAM total</string>
+    <string name="system_black_theme_title">Utilitza un tema fosc</string>
+    <string name="system_black_theme_summary">Força els fons de color negre</string>
+    <string name="ignore_window_secure_title">Ignora les banderes de seguretat de la finestra</string>
+    <string name="ignore_window_secure_summary">Això elimina els límits de captures de pantalla i enregistraments de pantalla per a totes les aplicacions, però pot provocar filtracions de privadesa. Després de canviar-ho, és possible que hàgiu de reiniciar les aplicacions.</string>
+</resources>
