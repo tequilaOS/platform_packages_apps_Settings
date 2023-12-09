@@ -139,7 +139,7 @@
         <!-- Battery information -->
         <Preference
             android:key="battery_info"
-            android:order="43"
+            android:order="42"
             android:title="@string/battery_info"
             android:fragment="com.android.settings.deviceinfo.batteryinfo.BatteryInfoFragment"
             settings:keywords="@string/keywords_battery_info"/>
@@ -147,7 +147,7 @@
         <!-- Android version -->
         <Preference
             android:key="firmware_version"
-            android:order="42"
+            android:order="43"
             android:title="@string/firmware_version"
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
@@ -156,7 +156,7 @@
         <!-- tequila version -->
         <Preference
             android:key="tequila_version"
-            android:order="43"
+            android:order="44"
             android:title="@string/tequila_version"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
