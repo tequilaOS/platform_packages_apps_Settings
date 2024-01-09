@@ -132,6 +132,14 @@
         android:order="25"
         android:fragment="com.android.settings.tequila.NetworkTrafficSettings"/>
 
+    <com.tequila.support.preferences.SystemSettingSwitchPreference
+        android:key="data_disabled_icon"
+        android:icon="@drawable/ic_settings_disable_data"
+        android:title="@string/data_disabled_icon_title"
+        android:summary="@string/data_disabled_icon_summary"
+        android:order="26"
+        android:defaultValue="true"/>
+
     <Preference
         android:fragment="com.android.settings.network.AdaptiveConnectivitySettings"
         android:key="adaptive_connectivity"
